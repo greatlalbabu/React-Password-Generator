@@ -1,0 +1,73 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: #1a1818;
+}
+
+button {
+    background-color: rgb(104, 206, 219);
+    border: none;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 1rem;
+    letter-spacing: .6px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(135, 239, 75);
+}
+
+.password-box input {
+    border: 2px solid rgb(132, 233, 85);
+    padding: .5rem 10rem .5rem 0;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.passwrod-length input {
+    border: 2px solid burlywood;
+    padding: .5rem;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.passwrod-length {
+    /* justify-content: space-between;
+    display: flex; */
+}
+
+.passwrod-length label {
+    font-weight: 600;
+    font-size: 19px;
+    margin: 1rem;
+}
+
+.words {
+    padding: 1rem 0px;
+}
+
+.letters {
+    display: flex;
+    font-weight: 600;
+}
+
+.wrapper-box {
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.generate-password{
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    background-color: #116BB4;
+    border: none;
+    color: white;
+}
